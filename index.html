@@ -67,6 +67,30 @@
 								</ul>
 							</article>
 							<article id = "Happy_Hour_Events">
+								<a href="#Events" class="previous-round"><i class="fa-solid fa-arrow-left"></i></a>
+									<!-- Html styling -->
+									<style>
+										.previous-round {
+											display: block;
+											display: flex;
+											justify-content: center;
+											align-items: center;
+										  	background-color: #3d0000;
+											border: black;
+											color: white;
+											font-size: medium;
+											cursor: pointer;
+											border-radius: 100%;
+											height: 2.5rem;
+											width: 2.5rem;
+											position: absolute;
+											top: 0.75rem;
+										}
+										.previous-round:hover {
+										  background-color: #b48b8b;
+										}
+									</style>
+
 								<span class="image main"><img src="images/beer.jpg" alt="" /></span>
 								<h3>Upcoming Events</h3>
 								<h4>Monthly Happy Hour - January</h4>
@@ -172,6 +196,7 @@
 							<hr>
 							</article>
 							<article id="Quarterly_Events">
+								<a href="#Events" class="previous-round"><i class="fa-solid fa-arrow-left"></i></a> <!-- added round back button which inherits style from above -->
 								<span class="image main"><img src="images/calendar.jpg" alt="" /></span>
 								<h3>Upcoming Events</h3>
 								<h4>TBD</h4>
@@ -582,6 +607,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</body>
 </html>
